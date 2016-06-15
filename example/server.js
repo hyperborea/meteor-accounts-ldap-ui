@@ -1,6 +1,10 @@
 if (Meteor.isServer) {
   _.extend(LDAP_SETTINGS, {
-    allowedGroups: ['risk', 'example.debug'],
+    allowedGroups: ['example.debug'],
+
+    roleMapping: {
+      access: ['example.debug']
+    },
 
     guestUser: {
       username: 'guest',

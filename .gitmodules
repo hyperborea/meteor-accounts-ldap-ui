@@ -1,3 +1,0 @@
-[submodule "example/packages/accounts-ldap"]
-	path = example/packages/accounts-ldap
-	url = https://sven.perkmann@stash.int.klarna.net/scm/ri/meteor-accounts-ldap.git
